@@ -22,7 +22,8 @@ evaldatasets=semeval2018_arabic_val # for test process
 
 #FT
 
-max_steps=450
+#max_steps = num_examples * num_epochs // (per_device_train_batch_size * gradient_accumulation_steps * num_gpus)
+max_steps=450 # adjust the steps according to the size of the data and the training epoch you wish
 
 DISTRIBUTED_ARGS="
     --nproc_per_node 2 \
