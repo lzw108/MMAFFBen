@@ -16,12 +16,24 @@ Paper link: [MMAFFBen](https://github.com/lzw108/MMAFFBen/edit/main/README.md)
 
 ## Usage
 
-This code is based on [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
-
 ### Fine-tune your model based on MMAFFIn
 
-Download the train datasets to the data folder.
+Download the train datasets (MMAFFIn) to the data folder.
 
 ```python
 bash run_sft_stream.sh
 ```
+
+### Evaluate your model on MMAFFBen
+
+Download MMAFFBen data to the data folder.
+
+```python
+bash run_inference.sh
+```
+This code is based on [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory). The current version supports the Qwen-VL series. Adjust the code for your own model according to the guidelines according to [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
+
+After getting the predicted results in the predicts folder, follow the steps in the evaluation.ipynb to obtain the scores of each subdataset.
+
+
+
