@@ -1,4 +1,4 @@
-# MMAFFBen: A Multilingual and Multimodal Affective Analysis Benchmark for Large Model Evaluation
+# MMAFFBen: A Multilingual and Multimodal Affective Analysis Benchmark for Evaluating LLMs and VLMs
 
 This is an extensive open-source benchmark for multilingual multimodal affective analysis. 
 
