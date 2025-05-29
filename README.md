@@ -11,8 +11,8 @@ Paper link: [MMAFFBen](https://github.com/lzw108/MMAFFBen/edit/main/README.md)
 
 ## Model
 
-- [MMAFFLM-3b]()
-- [MMAFFLM-7b]()
+- [MMAFFLM-3b](https://huggingface.co/lzw1008/MMAFFLM-3b)
+- [MMAFFLM-7b](https://huggingface.co/lzw1008/MMAFFLM-7b)
 
 ## Usage
 
