@@ -2,7 +2,7 @@
 
 This is an extensive open-source benchmark for multilingual multimodal affective analysis. 
 
-Paper link: [MMAFFBen](https://github.com/lzw108/MMAFFBen/edit/main/README.md)
+Paper link: [MMAFFBen](https://github.com/lzw108/MMAFFBen/main/README.md)
 
 ## Datasets
 
